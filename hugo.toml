@@ -1,0 +1,4 @@
+baseURL = 'https://milsab.github.io/'
+languageCode = 'en-us'
+title = 'Milad Sabouri'
+theme = "PaperMod"
