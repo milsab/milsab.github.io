@@ -1,6 +1,7 @@
 baseURL = 'https://milsab.github.io/'
 languageCode = 'en-us'
-title = 'Milad Sabouri'
+title = 'Milad Sabouri | Applied Scientist'
+description = "Personal website of Milad Sabouri, an Applied Scientist and AI/ML Researcher & Engineer. Discover research on LLM-powered AI agents, recommender systems, and explainable AI."
 theme = "PaperMod"
 
 [menu]
@@ -9,25 +10,43 @@ theme = "PaperMod"
     url  = "#about"
     weight = 1
   [[menu.main]]
-    name = "Projects"
-    url  = "#projects"
+    name = "Research"
+    url  = "#research"
     weight = 2
   [[menu.main]]
     name = "Publications"
     url  = "#publications"
     weight = 3
   [[menu.main]]
-    name = "Resume"
-    url  = "#resume"
+    name = "Contact"
+    url  = "#contact"
     weight = 4
 
 [params]
+  ShowPoweredBy = false
   defaultTheme = "auto"
+  hideFooter = false   # ensure not true
+  customCSS = ["css/custom.css"]
+  titleSeparator = " | "
+  disableThemeTitleSuffix = true   # <-- show only the page's front-matter title in the tab
 
+[params.label]
+  text = "Milad Sabouri"           # this is the header/brand text
+  icon = ""                        # optional logo path if you add one
+
+[[params.home]]
+  profileMode = true
 [[params.socialIcons]]
   name = "github"
   url = "https://github.com/milsab"
-
 [[params.socialIcons]]
   name = "linkedin"
   url = "https://linkedin.com/in/milad-sabouri"
+
+[params.assets]
+  css = ["css/extended/portfolio.css"]
+  customCSS = ["css/custom.css"]
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
