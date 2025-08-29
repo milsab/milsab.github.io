@@ -21,7 +21,8 @@ description: "Personal website of Milad Sabouri, PhD Candidate in Machine Learni
 
 ## About {#about}
 <div class="about">
-  I am an Applied Scientist and a Ph.D. candidate in Computer Science at DePaul University. My current research in intelligent systems is grounded in my extensive industry background as a software engineer, which informs my approach to building robust, scalable, and maintainable models. My current research and development centers on architecting LLM-powered AI agents for dynamic and explainable user modeling within recommender systems. Leveraging my foundation in reinforcement learning and deep learning, I build these systems to enhance personalization while ensuring a high degree of model transparency. 
+  I am an Applied Scientist and a Ph.D. candidate in Computer Science at DePaul University. My current research in intelligent systems is grounded in my extensive industry background as a software engineer, which informs my approach to building robust, scalable, and maintainable models. 
+  My current research and development centers on architecting LLM-powered AI agents for dynamic and explainable user modeling within recommender systems. Leveraging my foundation in reinforcement learning and deep learning, I build these systems to enhance personalization while ensuring a high degree of model transparency. 
 </div>
 
 ---
